@@ -1,0 +1,41 @@
+any text editor -VS code, sublime 
+> https://code.visualstudio.com/ (install)
+> https://nodejs.org/en (install)
+> https://github.com/ (create account)
+> gitbash: https://git-scm.com/downloads
+
+> Extensions
+* Vs code icon
+* git history
+* gitlens
+* spell check
+
+Assignment
+class performance
+Final interview
+
+Profile site
+design for second project (frontend homepage)
+
+html > Structure
+css > look and feel
+bootstrap > responsive (website work perfectly on every screen design)
+javascript > Events & Logics
+
+nodejs + express javascript
+Mongodb
+react
+python
+
+javascript > Events & Logics
+1- clicking on any button something should happen
+2- if we are writing wrong email id that give wrong email id
+suppose we are writing 11 digits mobile no it say maximum digits allowed 10 digits - call validations
+3- if you are clicking on the buttons pop up will appear.- Logics
+4- where ever user interaction will happen or any logic will come in the picture basically we require js.
+js is basic for the next sub
+
+
+
+
+
