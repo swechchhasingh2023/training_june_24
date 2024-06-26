@@ -9,6 +9,7 @@ any text editor -VS code, sublime
 * git history
 * gitlens
 * spell check
+* live server
 
 Assignment
 class performance
@@ -27,15 +28,52 @@ Mongodb
 react
 python
 
-javascript > Events & Logics
+/* javascript > Events & Logics
 1- clicking on any button something should happen
 2- if we are writing wrong email id that give wrong email id
 suppose we are writing 11 digits mobile no it say maximum digits allowed 10 digits - call validations
 3- if you are clicking on the buttons pop up will appear.- Logics
 4- where ever user interaction will happen or any logic will come in the picture basically we require js.
-js is basic for the next sub
+js is basic for the next sub */
 
+html 
+>wrapper
+head
+> all the linking like css or javascript 
+& title
+body
+> all content that is visible to us
 
+HTML
+// there are two types of tag
+inline
+>start in same line
+> only take width required as per the content
+>span, a, img
 
+block
+> start form the new line
+> always take the width of screen
+> p, div, h1
 
+self closing tag
+>hr - horizontal row
+>br - we can use this tag for break the line but it is not recommended bcz when we will go for responsiveness br tag is not a good option
 
+img (attribute and property)
+> attribute or property of the tag - src
+> always keep the image in the single folder images and files
+
+Recommended don't use direct url image from google save image after that use. might that url get in the future
+
+jpeg, png, gif use this || bcz this formats supported by all the browsers.
+even incase of broken or incorrect image alt will display
+title is tooltip when you hover on the image
+
+semantic tag
+
+codes run on the browsers and it has been morndern it will work without html and head tags
+
+Semantic tags:- the tag which give structure like header
+
+Html 5- introduce new tags
