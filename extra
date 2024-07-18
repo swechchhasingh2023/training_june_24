@@ -85,14 +85,18 @@ calc
 darklight mode
 coupon
 string operation
+rest spread
+object
 //////////////
-
+setInterval & setTimeout
 array
 math operation
 loop
 map filter
-rest spread
 object
 geo location + api
 clouser
 hoisting
+storage
+
+https://api.openweathermap.org/data/2.5/forecast/daily?q=london&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29

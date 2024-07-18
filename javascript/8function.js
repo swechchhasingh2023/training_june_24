@@ -49,3 +49,54 @@ function add (a,b){
 let add = (a,b)=>{return a+b}
 add(1,2)
 3
+
+/////// rest
+function add(...args){
+    console.log(args)
+}
+
+add (5, 6, 9)
+(3) [5, 6, 9]
+
+function add(...args){
+    let out = 0
+    for(i=0;i<args.length;i++){
+        out += args[i]
+    }
+    return out
+}
+add (1,3,5,6)
+15
+
+//spread operator
+let a = [1, 2, 3, 4]
+let b = ['a', 'b', 'c', 'd', 'e']
+let out = [...a, ...b]
+out
+(9) [1, 2, 3, 4, 'a', 'b', 'c', 'd', 'e']
+
+
+let a = [1, 2, 3, 4]
+let b = ['a', 'b',...a, 'c', 'd', 'e']
+b
+(9) ['a', 'b', 1, 2, 3, 4, 'c', 'd', 'e']
+// in the function we are trying to pass array
+
+function add(...args){
+    let out = 0
+    for(i=0;i<args.length;i++){
+        out += args[i]
+    }
+    return out
+}
+
+let arr = [1, 2, 3, 4]
+add(...arr)
+10
+add([1,2,3,4]) // it will not work
+'01,2,3,4' //error
+
+// when you use the array with the three dots it will act like rest operator
+
+// when you pass the array as the arguments it will act like spread operator
+
