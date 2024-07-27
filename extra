@@ -135,5 +135,80 @@ Method in the API  POST, GET, PUT, DELETE
 
 NPM
 > Node Package Manager
+package or supporting library
+> it is the place where all the backend API will available
 
 
+package.json
+> entry point to the app
+> It contain meta data (name, version, description)
+> scripts (start, test)
+> packages (dependency management)
+
+// step to generate package.json
+> open terminal go inside the folder
+> type npm init
+> answer all questions
+> type 'yes'
+
+// step to install package
+
+> open terminal and go inside the folder
+> npm i packagename
+
+package-lock.json
+> dependency tree
+
+npm i cors
+npm i express
+
+How to create package.json npm init ELSE npm init -y
+stop the server - control + C
+
+when you are getting the code you need to install npm 
+npm i  // it will go the directory in package.json and install require file
+
+// for static API - http://localhost:9877/
+
+live api (anyone can access)- http://3.17.216.66:4000/location
+
+http://localhost:8766/
+
+http://localhost:8765/
+
+nodemon
+> to start and stop the server automatically
+whatever package we are installed that are local dependency..
+this package can be used only inside of the folder..
+
+Global dependency- they will directly install in the laptop, they can be used for any applications.
+- this package used before start the application
+
+Way to install both are deference-
+
+
+> nodemon
+//global
+# window
+> open cmd as admin
+> npm i -g packagename
+# mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+
+Final project will one ecom website of your chocie
+Min Req
+> Application must have min 4 pages
+a) HomePage
+b) Listing Page
+c) Place order page
+d) See order page
+
+> Need to Design UI (can be different from real app)
+and try to make responsive as much as you can
+> You need to create rest api for all pages
+> Min 5 category and each must have 5 records
+> Adding login functionality will be plus
+> Frontend should be in react with backend node/python
+and database should be mongodb

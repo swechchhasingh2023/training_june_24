@@ -1,13 +1,11 @@
-// server creation with nodejs
+let http = require('http');
 
-let http = require('http')
+//req > what we send to server (params,query params, body)
+//res > what we get from server
 
-// request req > what we send to server (params, query params, body)
-// response res> what we get from the server 
-
-let server = http.createServer((req, res)=>{
-res.write("Hi from code node server")
-res.end()
+let server = http.createServer((req,res)=>{
+    res.write("hii from nodejs code server app")
+    res.end()
 })
 
-server.listen(8766)
+server.listen(8765)
