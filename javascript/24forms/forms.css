@@ -1,0 +1,10 @@
+p{
+    color: red;
+}
+
+#ppout{
+    height: 10px;
+    width: 100%;
+    background: green;
+    display: none;
+}
