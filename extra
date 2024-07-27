@@ -100,3 +100,40 @@ hoisting
 storage
 
 https://api.openweathermap.org/data/2.5/forecast/daily?q=london&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
+
+// Nodejs
+Nodejs -
+Single threaded - every request is coming in a single thread
+Asynchronous
+Non-blocking I/O
+
+whatever we req that will get assigned to one thead. 
+
+
+Each request get assigned to one-one event.
+whenever the request got completed you will get the response that response come into the form of callback.
+
+Why its faster -
+bcz multiple request get processed parallelly.
+
+
+REST API - 
+Representational State Transfer Application Programming Interface
+
+what is the benefit of rest API
+sMajor features-
+It is called state less- every req will be considered as a new request.
+
+C > Create (POST)
+R > Read (GET)
+U > Update (PUT)
+D > Delete  (DELETE)
+
+Operation in the API
+
+Method in the API  POST, GET, PUT, DELETE
+
+NPM
+> Node Package Manager
+
+
