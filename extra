@@ -195,6 +195,8 @@ Way to install both are deference-
 # mac/linux
 > open terminal
 > sudo npm i -g packagename
+sudo npm i -g nodemon
+
 
 
 Final project will one ecom website of your chocie
@@ -212,3 +214,8 @@ and try to make responsive as much as you can
 > Adding login functionality will be plus
 > Frontend should be in react with backend node/python
 and database should be mongodb
+
+>cors
+cross origin resource sharing 
+allow to use the backend from the frontend
+it is middleware just like supporting library
