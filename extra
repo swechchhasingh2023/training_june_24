@@ -18,6 +18,8 @@ Final interview
 Profile site
 design for second project (frontend homepage)
 
+https://imgbb.com/
+
 html > Structure
 css > look and feel
 bootstrap > responsive (website work perfectly on every screen design)
@@ -219,3 +221,6 @@ and database should be mongodb
 cross origin resource sharing 
 allow to use the backend from the frontend
 it is middleware just like supporting library
+
+
+Cluster means one space -  where is this cloud exactly hosted

@@ -1,39 +1,48 @@
 Zomapp
 
 // Page 1
+> List of city (GET)
+*  http://localhost:9110/location
 
-List of city (GET)
+> List of Restaurant (GET)
+* http://localhost:9110/restaurants
 
-List of Restaurant (GET)
+> Rest wrt to city (GET)
+* http://localhost:9110/restaurants?stateId=2
 
-Rest wrt to city (GET)
+> Quick Search (GET)
+* http://localhost:9110/mealType
 
-Quick Search (GET)
 
 // Page 2
+> Rest wrt to meal (GET)
 
-Rest wrt to meal (GET)
 
-Rest wrt to meal + cuisine (GET)
+> Rest wrt to meal + cuisine (GET)
 
-Rest wrt to meal + cost (GET)
+
+> Rest wrt to meal + cost (GET)
+
 
 //page3
+> Details of Restaurant (GET)
 
-Details of Restaurant (GET)
 
-Menu of restaurant (GET)
+> Menu of restaurant (GET)
+
 
 //page4
+> Details of menu selected (POST)
 
-Details of menu selected (POST)
 
-Place Order (POST)
+> Place Order (POST)
+
 
 //page
+> List all orders (GET)
 
-List all orders (GET)
 
-update order (PUT)
+> update order (PUT)
 
-delete order (DELETE)
+
+> delete order (DELETE)
