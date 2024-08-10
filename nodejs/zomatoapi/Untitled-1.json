@@ -62,3 +62,111 @@
     }
   ]
 }
+//mealtype
+[
+    {
+     "mealtype_id": 1,
+     "mealtype": "Breakfast",
+     "content": "The Golden Gate Grill",
+     "meal_image": "https://ibb.co/4svbft8"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "Breakfast",
+        "content": "The Golden Gate Grill",
+        "meal_image": "https://ibb.co/4svbft8"
+       },
+       {
+        "mealtype_id": 3,
+        "mealtype": "Lunch",
+        "content": "The Golden Gate Grill",
+        "meal_image": "https://ibb.co/4svbft8"
+       },
+       {
+        "mealtype_id": 4,
+        "mealtype": "Dinner",
+        "content": "The Golden Gate Grill",
+        "meal_image": "https://ibb.co/4svbft8"
+       },
+       {
+        "mealtype_id": 5,
+        "mealtype": "Snacks",
+        "content": "The Golden Gate Grill",
+        "meal_image": "https://ibb.co/4svbft8"
+       },
+       {
+        "mealtype_id": 6,
+        "mealtype": "Nightlife",
+        "content": "The Golden Gate Grill",
+        "meal_image": "https://ibb.co/4svbft8"
+       }
+]
+
+//////////////////////////////// restaurant
+https://ibb.co/4svbft8
+[
+    {
+        "restaurant_id": 2,
+        "restaurant_name": "Paratha House",
+        "location_id": 2,
+        "state_id": 1,
+        "address": "No. 3, Ground Floor, Greater Kailash, Delhi",
+        "restaurant_thumb": "https://ibb.co/4svbft8",
+        "average_rating": 3.5,
+        "rating_text":"Good",
+        "cost": 450,
+        "contact_number": "3521458734",
+        "mealTypes":[
+            {
+                "mealtype_id": 1,
+                "mealtype": "Breakfast"
+            },
+            {
+                "mealtype_id": 3,
+                "mealtype": "Dinner"
+            }
+        ],
+        "cuisines":[
+            {
+                "cuisine_id": 1,
+                "cuisine": "North Indian"
+            },
+            {
+                "cuisine_id": 5,
+                "cuisine": "Street Food"
+            },
+        ]
+    },
+    {
+        "restaurant_id": 1,
+        "restaurant_name": "Paratha House",
+        "location_id": 1,
+        "state_id": 2,
+        "address": "7051/4, Block 1, Regar Pura, Karol Bagh",
+        "restaurant_thumb": "https://ibb.co/4svbft8",
+        "average_rating": 4.5,
+        "rating_text":"Best",
+        "cost": 550,
+        "contact_number": "136881648",
+        "mealTypes":[
+            {
+                "mealtype_id": 1,
+                "mealtype": "Breakfast"
+            },
+            {
+                "mealtype_id": 3,
+                "mealtype": "Dinner"
+            }
+        ],
+        "cuisines":[
+            {
+                "cuisine_id": 1,
+                "cuisine": "South Indian"
+            },
+            {
+                "cuisine_id": 3,
+                "cuisine": "Hotel Food"
+            },
+        ]
+    }
+]

@@ -8,7 +8,7 @@ Zomapp
 http://localhost:9111/restaurants
 
 > Rest wrt to city (GET)
-* http://localhost:9110/restaurants?stateid=109
+* http://localhost:9110/restaurants?stateId=1
 
 > Quick Search (GET)
 * http://localhost:9110/mealType
@@ -16,6 +16,7 @@ http://localhost:9111/restaurants
 
 // Page 2
 > Rest wrt to meal (GET)
+http://localhost:9110/filter/1
 
 
 > Rest wrt to meal + cuisine (GET)
