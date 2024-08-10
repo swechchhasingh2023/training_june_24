@@ -1,0 +1,64 @@
+{
+  "states": [
+    {
+      "state_id": 1,
+      "state_name": "California",
+      "restaurants": [
+        {
+          "restaurant_id": "R001",
+          "name": "The Golden Gate Grill",
+          "address": "123 Main St, San Francisco, CA 94101",
+          "cuisine": "American",
+          "rating": 4.5
+        },
+        {
+          "restaurant_id": "R002",
+          "name": "Sushi Zen",
+          "address": "456 Market St, San Francisco, CA 94102",
+          "cuisine": "Japanese",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "state_id": 2,
+      "state_name": "New York",
+      "restaurants": [
+        {
+          "restaurant_id": "R003",
+          "name": "Empire State Diner",
+          "address": "789 Broadway, New York, NY 10003",
+          "cuisine": "American",
+          "rating": 4.3
+        },
+        {
+          "restaurant_id": "R004",
+          "name": "La Bella Italia",
+          "address": "101 5th Ave, New York, NY 10010",
+          "cuisine": "Italian",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "state_id": 2,
+      "state_name": "York",
+      "restaurants": [
+        {
+          "restaurant_id": "R005",
+          "name": "State Diner",
+          "address": "789 Broadway, New York, NY 10003",
+          "cuisine": "American",
+          "rating": 4.4
+        },
+        {
+          "restaurant_id": "R006",
+          "name": "La Bella Italia",
+          "address": "101 5th Ave, New York, NY 10010",
+          "cuisine": "Italian",
+          "rating": 4.8
+        }
+      ]
+    }
+  ]
+}

@@ -224,3 +224,17 @@ it is middleware just like supporting library
 
 
 Cluster means one space -  where is this cloud exactly hosted
+
+param
+> what we pass after /
+> we need to define param in route code
+> use to pass few values  
+
+queryParam
+> what we pass after ?
+> No need to define
+> use to multiple value
+
+Swagger installation
+
+npm i swagger-jsdoc swagger-ui-express
