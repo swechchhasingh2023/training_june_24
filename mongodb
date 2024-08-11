@@ -94,3 +94,22 @@ example-
 use demoNode
 show collections
 db.location.find()
+
+how update query work in mongodb
+
+db.collection.update( {condition}, {set})
+
+db.products.update(
+{id: 1},
+{
+    $set: {
+        "status": "delivered"
+    }
+}
+)
+
+for delete
+
+db.collection.update(condition)
+
+db.products.deleteOne({id: 1})

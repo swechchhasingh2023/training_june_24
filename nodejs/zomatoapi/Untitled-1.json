@@ -134,7 +134,7 @@ https://ibb.co/4svbft8
             {
                 "cuisine_id": 5,
                 "cuisine": "Street Food"
-            },
+            }
         ]
     },
     {
@@ -166,7 +166,135 @@ https://ibb.co/4svbft8
             {
                 "cuisine_id": 3,
                 "cuisine": "Hotel Food"
-            },
+            }
         ]
     }
 ]
+
+//////////////////////////////// Menu
+
+[
+    {
+        "menu_id": 1,
+        "restaurant_id": 3,
+        "menu_name": "Macho Nachos",
+        "description": "Crispy nachos topped with a hearty mix of beans, melted cheese, jalapenos, and guacamole.",
+        "menu_image": "https://ibb.co/4svbft8",
+        "menu_type": "vegetarian",
+        "menu_price": "99",
+        "spicy": "yes"
+    },
+    {
+        "menu_id": 2,
+        "restaurant_id": 1,
+        "menu_name": "Spicy Thai Noodles",
+        "description": "Rice noodles stir-fried with vegetables, tofu, and a spicy Thai sauce.",
+        "menu_image": "https://ibb.co/XYZ123",
+        "menu_type": "vegan",
+        "menu_price": "120",
+        "spicy": "yes"
+    },
+    {
+        "menu_id": 3,
+        "restaurant_id": 4,
+        "menu_name": "Grilled Chicken Caesar Salad",
+        "description": "Classic Caesar salad topped with grilled chicken breast, croutons, and parmesan cheese.",
+        "menu_image": "https://ibb.co/XYZ456",
+        "menu_type": "non-vegetarian",
+        "menu_price": "150",
+        "spicy": "no"
+    },
+    {
+        "menu_id": 4,
+        "restaurant_id": 2,
+        "menu_name": "Margarita Pizza",
+        "description": "Thin crust pizza topped with fresh mozzarella, tomatoes, and basil.",
+        "menu_image": "https://ibb.co/XYZ789",
+        "menu_type": "vegetarian",
+        "menu_price": "130",
+        "spicy": "no"
+    },
+    {
+        "menu_id": 5,
+        "restaurant_id": 3,
+        "menu_name": "BBQ Pulled Pork Sandwich",
+        "description": "Slow-cooked pulled pork in BBQ sauce served with coleslaw on a toasted bun.",
+        "menu_image": "https://ibb.co/ABC123",
+        "menu_type": "non-vegetarian",
+        "menu_price": "140",
+        "spicy": "yes"
+    },
+    {
+        "menu_id": 6,
+        "restaurant_id": 4,
+        "menu_name": "Vegetable Sushi Roll",
+        "description": "Assorted vegetables wrapped in sushi rice and seaweed, served with soy sauce and wasabi.",
+        "menu_image": "https://ibb.co/ABC456",
+        "menu_type": "vegan",
+        "menu_price": "110",
+        "spicy": "no"
+    },
+    {
+        "menu_id": 7,
+        "restaurant_id": 3,
+        "menu_name": "Garlic Butter Shrimp",
+        "description": "Succulent shrimp sautéed in garlic butter sauce, served with a side of steamed vegetables.",
+        "menu_image": "https://ibb.co/ABC789",
+        "menu_type": "non-vegetarian",
+        "menu_price": "160",
+        "spicy": "no"
+    },
+    {
+        "menu_id": 8,
+        "restaurant_id": 2,
+        "menu_name": "Paneer Tikka Masala",
+        "description": "Cubes of paneer cooked in a rich and creamy tomato sauce, served with naan or rice.",
+        "menu_image": "https://ibb.co/DEF123",
+        "menu_type": "vegetarian",
+        "menu_price": "150",
+        "spicy": "yes"
+    },
+    {
+        "menu_id": 9,
+        "restaurant_id": 1,
+        "menu_name": "Quinoa Avocado Salad",
+        "description": "A refreshing salad with quinoa, avocado, cherry tomatoes, and a lemon vinaigrette.",
+        "menu_image": "https://ibb.co/DEF456",
+        "menu_type": "vegan",
+        "menu_price": "135",
+        "spicy": "no"
+    }
+]
+
+
+//////////////////////////////// Menu
+[
+    {
+        "orderId": 1,
+        "name": "Ankita",
+        "email": "ankitasingh@gmail.com",
+        "address": "chandigarh 54",
+        "cost": 550,
+        "menuItem":[
+            45,
+            34,
+            41
+        ],
+        "status": "On the Way"
+    },
+    {
+        "orderId": 1,
+        "name": "Riya",
+        "email": "riya01@gmail.com",
+        "address": "Panjab 34",
+        "cost": 690,
+        "menuItem":[
+            51,
+            42,
+            70
+        ],
+        "status": "On the Way"
+    },
+
+]
+
