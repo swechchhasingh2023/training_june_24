@@ -1,6 +1,6 @@
-{
-  "states": [
-    {
+/////// Location ///
+    [
+        {
       "state_id": 1,
       "state_name": "California",
       "restaurants": [
@@ -61,7 +61,6 @@
       ]
     }
   ]
-}
 //mealtype
 [
     {
@@ -267,7 +266,7 @@ https://ibb.co/4svbft8
 ]
 
 
-//////////////////////////////// Menu
+//////////////////////////////// Orders
 [
     {
         "orderId": 1,

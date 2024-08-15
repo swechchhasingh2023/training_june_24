@@ -12,6 +12,8 @@ let {ObjectId} = require('mongodb')
 swaggerDocument.info.version = packageNumber.version;
 app.use("/api-doc", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
+let key = "123Hdn4jwnd4o4"
+
 app.use(express.json())
 app.use(cors());
 app.get("/health", (req, res) => {
@@ -21,8 +23,14 @@ app.get("/health", (req, res) => {
 app.get("/location", async (req, res) => {
   let query = {};
   let collection = "location";
-  let output = await getData(collection, query);
-  res.send(output);
+  let authKey = req.headers['x-access-auth']
+  if(authKey == key){
+    let output = await getData(collection, query);
+    res.status(200).send(output);
+  }else{
+    res.status(401).send(`Unauthorised`);
+  }
+ 
 });
 
 app.get("/mealtype", async (req, res) => {

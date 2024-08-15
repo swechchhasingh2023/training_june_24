@@ -80,3 +80,11 @@ http://localhost:9110/orders
 > body {
      "_id": "66b854ff05e93f3be0d7ee95"
 }
+
+
+key 
+
+* http://localhost:9110/location
+> header 
+key               value
+x-access-auth     123Hdn4jwnd4o4

@@ -24,10 +24,125 @@
       }
     },
     "/location": {
+      "summary": "Testing location route",
+      "get": {
+        "description": "Testing location route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "parameters": [
+          {
+            "name": "x-access-auth",
+            "in": "header",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "location route"
+          }
+        }
+      }
+    },
+    "/details": {
+      "summary": "Testing location route",
+      "get": {
+        "description": "Testing location route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true
+          },
+          {
+            "name": "mealid",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "location route"
+          }
+        }
+      }
+    },
+    "/placeOrder": {
+      "summary": "Testing location route",
+      "post": {
+        "description": "Testing location route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "id": "string"
+              },
+              "example": {
+                "name": "Riya",
+                "email": "riya01@gmail.com",
+                "address": "Panjab 34",
+                "cost": 690,
+                "menuItem": [51, 42, 70],
+                "status": "On the Way"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "location route"
+          }
+        }
+      }
+    },
+    "/updateOrder": {
+      "summary": "Testing location route",
+      "put": {
+        "description": "Testing location route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "id": "string"
+              },
+              "example": {
+                "_id": "3189086946usersreu",
+                "status": "Pending"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "location route"
+          }
+        }
+      }
+    },
+    "/deleteOrder": {
         "summary": "Testing location route",
-        "get": {
+        "delete": {
           "description": "Testing location route for app",
           "tags": ["PUBLIC ROUTE"],
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "id": "string"
+                },
+                "example": {
+                  "_id": "3189086946usersreu",
+                  "status": "Pending"
+                }
+              }
+            }
+          },
           "responses": {
             "200": {
               "description": "location route"
