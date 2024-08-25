@@ -238,3 +238,39 @@ queryParam
 Swagger installation
 
 npm i swagger-jsdoc swagger-ui-express
+
+/// step to generate react app
+> open cmd  as admin
+> npm i -g create-react-app
+
+//Every time you new new app
+> open cmd
+> go inside the folder where you want app
+> create-react-app appname
+
+example 
+create folder with the name of react
+create-react-app firstapp
+
+React:-
+
+SPA> Single Page Application
+
+Component based 
+Hooks
+State & Props
+Calling api
+Routing
+Param & queryParam
+
+react- main package
+react-dom - which help to display the content
+react-scripts - which help to run the content
+
+state:- 
+> Act a local variable
+> every component can have its own state and we can update
+> when state update component will re-render
+
+Props:-
+> are the way by which we can transfer state from one component to another componentin case of nasted component.
