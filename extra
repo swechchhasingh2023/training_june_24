@@ -107,7 +107,7 @@ https://api.openweathermap.org/data/2.5/forecast/daily?q=london&mode=json&units=
 Nodejs -
 Single threaded - every request is coming in a single thread
 Asynchronous
-Non-blocking I/O
+Non-blocking I/O (input/output)
 
 whatever we req that will get assigned to one thead. 
 

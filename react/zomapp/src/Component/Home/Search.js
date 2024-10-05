@@ -4,50 +4,49 @@ import "./Search.css";
 const url = "http://3.17.216.66:4000";
 
 const Search = () => {
+  const [location, setLocation] = useState([]);
+  const [restaurant, setRestaurant] = useState([]);
 
-    const [location, setLocation]= useState([])
-    const [restaurant, setRestaurant]= useState([])
+  useEffect(() => {
+    fetch(`${url}/location`, { method: "GET" })
+      .then((res) => res.json())
+      .then((data) => {
+        setLocation(data);
+      });
+  }, []);
 
-    useEffect(()=>{
-     fetch(`${url}/location`, {method: 'GET'})
-     .then ((res) => res.json())
-     .then ((data)=>{
-        setLocation(data)
-     })
-    }, [])
-
-    const renderCity = (data) => {
-        if(data){
-            return data.map((item) =>{
-                return(
-                    <option key={item._id} value={item.state_id}>
-                        {item.state}
-                    </option>
-                )
-            })
-        }
+  const renderCity = (data) => {
+    if (data) {
+      return data.map((item) => {
+        return (
+          <option key={item._id} value={item.state_id}>
+            {item.state}
+          </option>
+        );
+      });
     }
+  };
 
-    const handleChange = (e) =>{
-    console.log(e.target.value)
-    fetch(`${url}/restaurant?stateId=${e.target.value}`, {method: 'GET'})
-    .then((res)=>res.json())
-    .then((data)=>{
-        setRestaurant(data)
-    })
-    }
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    fetch(`${url}/restaurant?stateId=${e.target.value}`, { method: "GET" })
+      .then((res) => res.json())
+      .then((data) => {
+        setRestaurant(data);
+      });
+  };
 
-    const renderRest = (data) =>{
-        if(data){
-            return data.map((item) =>{
-                return (
-                    <option key={item.restaurant_id}>
-                        {item.restaurant_name} | {item.address}
-                    </option>
-                )
-            })
-        }
+  const renderRest = (data) => {
+    if (data) {
+      return data.map((item) => {
+        return (
+          <option key={item.restaurant_id}>
+            {item.restaurant_name} | {item.address}
+          </option>
+        );
+      });
     }
+  };
 
   return (
     <>
@@ -62,11 +61,11 @@ const Search = () => {
         <div class="dropdown">
           <select onChange={handleChange}>
             <option>----SELECT YOUR CITY----</option>
-            {renderCity (location)}
+            {renderCity(location)}
           </select>
           <select id="restSelect">
             <option>----SELECT YOUR CITY----</option>
-           {renderRest (restaurant)}
+            {renderRest(restaurant)}
           </select>
         </div>
       </div>
