@@ -191,6 +191,8 @@ Way to install both are deference-
 
 > nodemon
 //global
+> require administrative permissions
+> this package used before start the application
 # window
 > open cmd as admin
 > npm i -g packagename
