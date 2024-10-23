@@ -16,3 +16,5 @@ https://developerjwt.herokuapp.com/api/auth/login
 /*UserInfo/ (GET)
 
 https://developerjwt.herokuapp.com/api/auth/userinfo (Header) => {'x-access-token':'token value from login'}
+
+npm i cors jsonwebtoken bcryptjs express mongoose
