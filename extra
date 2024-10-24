@@ -296,5 +296,41 @@ Props:-
        
 (get) restaurants>         http://3.17.216.66:4000/restaurants
 
-params
-querParams
+param
+> What we pass after /
+> we need to define param in route code
+> use to few values
+
+queryParam
+> What we pass after ?
+> No need to define
+> use to multiple values
+
+render.com
+
+////Step to generate react app
+> open cmd as admin
+> npm i -g create-react-app
+
+//Every time you need new app
+> open cmd
+> go inside the folder where you want app
+> create-react-app appname
+
+
+SPA> Single Page Application
+
+Component based
+Hooks
+State & Props
+Calling api
+Routing
+Param & queryParam
+
+State
+Act a local variable 
+every component can have its own state and we can update
+when state update component will rerender
+
+Props
+> are the way by which we can transfer state from one component to another in case of nested component

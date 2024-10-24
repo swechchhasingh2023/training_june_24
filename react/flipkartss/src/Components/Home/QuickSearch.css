@@ -1,0 +1,47 @@
+.section-3{
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    
+}
+.section-3-container{
+    margin-top: 16px;
+    height: 362px;
+
+}
+.smartphones{
+    display: flex;
+    
+}
+
+.section-3-headline{
+padding: 1%;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.section-3-item{
+    border: 1px solid rgb(222, 215, 215);
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+}
+.section-3-item img{
+    height: 200px;
+    
+}
+.phone-items{
+    text-align: center;
+}
+.span-text{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-3-item img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}

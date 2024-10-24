@@ -1,0 +1,26 @@
+
+footer {
+    /* height: 60px; */
+    /* border: 5px dotted orange; */
+    text-align: center;
+    background-color: #212121;
+    color: white;
+  }
+  .footText {
+    text-align: center;
+  }
+  .footDiv {
+    width: 16%;
+    display: inline-block;
+    border-right: 2px solid #454d5e;
+  }
+  .noBorder {
+    border: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  hr{
+    color: white;
+    width: 1px;
+  }
