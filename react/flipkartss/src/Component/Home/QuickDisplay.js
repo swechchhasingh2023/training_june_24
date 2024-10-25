@@ -1,5 +1,6 @@
 import React from "react";
 import "./QuickSearch.css";
+import {Link} from 'react-router-dom'
 
 const QuickSearch = (props) => {
   console.log("props", props);
@@ -8,13 +9,13 @@ const QuickSearch = (props) => {
     if (quickData) {
       return quickData.map((item) => {
         return (
-          <div class="section-3-item">
-            <img src={item.Image} />
+          <Link to={'/listing/${item.productId}'} className="section-3-item">
+             <img src={item.Image} />
             {item.product_name} <span class="span-text">{item.Price}
             </span>
             <p>{item.Color}</p>
-            <p>{item.Color}</p>
-          </div>
+          </Link>
+    
         );
       });
     }
