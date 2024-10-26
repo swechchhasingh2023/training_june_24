@@ -25,7 +25,7 @@ const setDataPerFilter = (data) => {
   return (
     <>
     <div className='row'>
-      <div className='mainListing'>
+      <div id='mainListing'>
         <div id='filter'>
 
         </div>

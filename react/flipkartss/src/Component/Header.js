@@ -8,7 +8,7 @@ const Header = () => {
       <header>
         <div className="nav-container">
           <Link to ="/"><div className="logo">
-            <img src="images/logo.svg" alt="logo" />
+            <img src="https://i.ibb.co/zQjK7rF/fflogo.png" alt="logo" />
           </div></Link>
           
           <div className="search">
@@ -48,13 +48,13 @@ const Header = () => {
           </div>
           <div className="right-header">
             <div className="login">
-              <img src="images/login.svg" alt="Flipkart" className="images-brand" />
+              <img src="https://i.ibb.co/9nMhLY4/profile.png" alt="Flipkart Profile" className="images-brand" />
               Flipkart
-              <img src="images/download.svg" alt="download" />
+              <img src="https://i.ibb.co/Qjkmyrj/download-1.png" alt="download" />
             </div>
             <div className="cart">
               <img
-                src="images/header-cart.svg"
+                src="https://i.ibb.co/zmzrSqV/cart.png"
                 alt="cart"
                 className="images-brand"
               />
@@ -62,14 +62,14 @@ const Header = () => {
             </div>
             <div className="become-seller brand-img">
               <img
-                src="images/become-seller.svg"
+                src="https://i.ibb.co/V3B6c0j/box.png"
                 alt="seller"
                 className="images-brand"
               />
               Beacome a Seller
             </div>
             <div className="more">
-              <img src="images/header-3verticalDots.svg" alt="" />
+              <img src="https://i.ibb.co/Br1Gczh/header-3vertical-Dots-1.png" alt="Three verticals dots" />
             </div>
           </div>
         </div>
