@@ -1,148 +1,148 @@
 /* SECTION 1 */
 .section-1 {
-    width: 98%;
-    margin-left: 1%;
-    height: 122px;
-    background: white;
-    margin-top: 10px;
+  width: 98%;
+  margin-left: 1%;
+  height: 122px;
+  background: white;
+  margin-top: 10px;
 }
 
 .section-1-container {
-    flex-direction: row; /* Ensure horizontal layout */
-    justify-content: flex-start; /* Align items at the start */
-    gap: 8px; /* Add some spacing between items */
-    overflow-x: auto; 
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 8px;
+  overflow-x: auto;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .section-1-item {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
-    font-size: 14px;
-    font-weight: 500;
-    align-items: center;
-    flex: 1 1 100px; /* responsive flex basis */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+  flex: 1 1 100px;
 }
 
 .section-1-item img {
-    width: 64px;
-    height: 64px;
+  width: 64px;
+  height: 64px;
 }
 
 /* SECTION 2 */
 #devCarousel {
-    margin-top: 16px;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .sliderImage {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* SECTION 3 */
 .section-3 {
-    background-color: white;
-    width: 98%;
-    margin-left: 1%;
+  background-color: white;
+  width: 98%;
+  margin-left: 1%;
 }
 
 .section-3-container {
-    margin-top: 16px;
-    height: 100%;
+  margin-top: 16px;
+  height: 100%;
 }
 
 .smartphones {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1%; /* add space between items */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
 }
 
 .section-3-headline {
-    padding: 1%;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  padding: 1%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .section-3-item {
-    border: 1px solid rgb(222, 215, 215);
-    padding: 1%;
-    border-radius: 5px;
-    height: auto;
-    width: 100%;
-    max-width: 200px; /* max width for responsiveness */
-    margin: 1% auto; /* add auto margin for spacing */
+  border: 1px solid rgb(222, 215, 215);
+  padding: 1%;
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  margin: 1% auto;
 }
 
 .section-3-item img {
-    height: 150px;
-    width: 100%;
-    object-fit: contain;
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .phone-items {
-    text-align: center;
+  text-align: center;
 }
 
 .span-text {
-    display: flex;
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .section-1 {
-        height: auto;
-        margin-top: 5px;
-    }
+  .section-1 {
+    height: auto;
+    margin-top: 5px;
+  }
 
-    .section-1-container {
-        flex-direction: row;
-        align-items: center;
-    }
+  .section-1-container {
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .section-1-item {
-        font-size: 12px;
-        flex: 1 1 60px;
-    }
+  .section-1-item {
+    font-size: 12px;
+    flex: 1 1 60px;
+  }
 
-    .section-3-headline {
-        font-size: 20px;
-    }
+  .section-3-headline {
+    font-size: 20px;
+  }
 
-    .section-3-item {
-        max-width: 160px;
-        padding: 2%;
-    }
+  .section-3-item {
+    max-width: 160px;
+    padding: 2%;
+  }
 }
 
 @media (max-width: 480px) {
-    .section-1-item img {
-        width: 48px;
-        height: 48px;
-    }
+  .section-1-item img {
+    width: 48px;
+    height: 48px;
+  }
 
-    .section-3-headline {
-        font-size: 18px;
-    }
+  .section-3-headline {
+    font-size: 18px;
+  }
 
-    .section-3-item {
-        max-width: 140px;
-    }
+  .section-3-item {
+    max-width: 140px;
+  }
 }

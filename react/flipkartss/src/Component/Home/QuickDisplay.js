@@ -11,8 +11,9 @@ const QuickSearch = (props) => {
         return (
           <Link to={`/listing/${item.category_id}`} className="section-3-item">
             <img src={item.Image} />
-            {item.product_name} <span className="span-text">{item.Price}</span>
-            <p>{item.Color}</p>
+            <p className="span-text">{item.product_name}</p>{" "}
+            <span className="span-text">{item.Price}</span>
+            <p className="span-text">{item.Color}</p>
           </Link>
         );
       });

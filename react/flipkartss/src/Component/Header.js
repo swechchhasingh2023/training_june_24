@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css';
+import "./Header.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -7,10 +7,12 @@ const Header = () => {
     <>
       <header>
         <div className="nav-container">
-          <Link to ="/"><div className="logo">
-            <img src="https://i.ibb.co/zQjK7rF/fflogo.png" alt="logo" />
-          </div></Link>
-          
+          <Link to="/">
+            <div className="logo">
+              <img src="https://i.ibb.co/zQjK7rF/fflogo.png" alt="logo" />
+            </div>
+          </Link>
+
           <div className="search">
             <div className="search-container">
               <button className="search-button">
@@ -48,9 +50,16 @@ const Header = () => {
           </div>
           <div className="right-header">
             <div className="login">
-              <img src="https://i.ibb.co/9nMhLY4/profile.png" alt="Flipkart Profile" className="images-brand" />
+              <img
+                src="https://i.ibb.co/9nMhLY4/profile.png"
+                alt="Flipkart Profile"
+                className="images-brand"
+              />
               Flipkart
-              <img src="https://i.ibb.co/Qjkmyrj/download-1.png" alt="download" />
+              <img
+                src="https://i.ibb.co/Qjkmyrj/download-1.png"
+                alt="download"
+              />
             </div>
             <div className="cart">
               <img
@@ -69,7 +78,10 @@ const Header = () => {
               Beacome a Seller
             </div>
             <div className="more">
-              <img src="https://i.ibb.co/Br1Gczh/header-3vertical-Dots-1.png" alt="Three verticals dots" />
+              <img
+                src="https://i.ibb.co/Br1Gczh/header-3vertical-Dots-1.png"
+                alt="Three verticals dots"
+              />
             </div>
           </div>
         </div>
