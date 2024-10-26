@@ -5,39 +5,39 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <p class="footText">&copy; Developer Swechchha 2023</p>
+        <p className="footText">&copy; Developer Swechchha 2023</p>
 
-        <div class="footDiv noBorder">
+        <div className="footDiv noBorder">
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="footDiv noBorder">
+        <div className="footDiv noBorder">
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="footDiv noBorder">
+        <div className="footDiv noBorder">
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="footDiv">
+        <div className="footDiv">
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="footDiv noBorder">
+        <div className="footDiv noBorder">
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="footDiv noBorder">
+        <div className="footDiv noBorder">
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>

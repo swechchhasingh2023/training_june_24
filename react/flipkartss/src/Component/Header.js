@@ -1,21 +1,23 @@
 import React from "react";
 import './Header.css';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <header>
-        <div class="nav-container">
-          <div class="logo">
+        <div className="nav-container">
+          <Link to ="/"><div className="logo">
             <img src="images/logo.svg" alt="logo" />
-          </div>
-          <div class="search">
-            <div class="search-container">
-              <button class="search-button">
+          </div></Link>
+          
+          <div className="search">
+            <div className="search-container">
+              <button className="search-button">
                 <svg
                   width="24"
                   height="24"
-                  class=""
+                  className=""
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -39,34 +41,34 @@ const Header = () => {
               </button>
               <input
                 type="text"
-                class="search-box"
+                className="search-box"
                 placeholder="Search for Products, Brands and More"
               />
             </div>
           </div>
-          <div class="right-header">
-            <div class="login">
-              <img src="images/login.svg" alt="Flipkart" class="images-brand" />
+          <div className="right-header">
+            <div className="login">
+              <img src="images/login.svg" alt="Flipkart" className="images-brand" />
               Flipkart
               <img src="images/download.svg" alt="download" />
             </div>
-            <div class="cart">
+            <div className="cart">
               <img
                 src="images/header-cart.svg"
                 alt="cart"
-                class="images-brand"
+                className="images-brand"
               />
               Cart
             </div>
-            <div class="become-seller brand-img">
+            <div className="become-seller brand-img">
               <img
                 src="images/become-seller.svg"
                 alt="seller"
-                class="images-brand"
+                className="images-brand"
               />
               Beacome a Seller
             </div>
-            <div class="more">
+            <div className="more">
               <img src="images/header-3verticalDots.svg" alt="" />
             </div>
           </div>
