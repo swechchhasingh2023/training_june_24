@@ -1,0 +1,227 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "This APIs For Flipkart Clone ECOM App",
+    "version": "__version__"
+  },
+  "tags": [
+    {
+      "name": "PUBLIC ROUTE",
+      "description": "Public Route"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "summary": "Testing Health Check",
+      "get": {
+        "description": "Testing User for app",
+        "tags": ["PUBLIC ROUTE"],
+        "responses": {
+          "200": {
+            "description": "Health Check Pass"
+          }
+        }
+      }
+    },
+    "/category": {
+      "summary": "Testing category Route",
+      "get": {
+        "description": "Testing category Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "parameters":[
+          {
+              "name":"x-access-auth",
+              "in":"header",
+              "required":true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    },
+    "/products": {
+      "summary": "Testing products Route",
+      "get": {
+        "description": "Testing products Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "responses": {
+          "200": {
+            "description": "products route"
+          }
+        }
+      }
+    },
+    "/details": {
+      "summary": "Testing details Route",
+      "get": {
+        "description": "Testing details Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "responses": {
+          "200": {
+            "description": "details route"
+          }
+        }
+      }
+    },
+    "/menu": {
+      "summary": "Testing category Route",
+      "get": {
+        "description": "Testing category Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "parameters":[
+          {
+              "name":"id",
+              "in":"path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    },
+    "/menuDetails": {
+      "summary": "Testing menuDetails Route",
+      "post": {
+        "description": "Testing menuDetails Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "requestBody":{
+          "required":true,
+          "content":{
+            "application/json":{
+              "schema":{
+                "type": "object",
+                "id": "string"
+              },
+              "example":{
+                  "menu_name": "Deals On Smartphones",
+                  "description": "Exciting offers on the latest smartphones",
+                  "category_id": 1,
+                  "menu_image": "https://i.ibb.co/s6gGRkL/smartphoneA.jpg",
+                  "category": "Smartphones",
+                  "menu_price": 50000
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    },
+    "/placeOrder": {
+      "summary": "Testing category Route",
+      "post": {
+        "description": "Testing category Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "requestBody":{
+          "required":true,
+          "content":{
+            "application/json":{
+              "schema":{
+                "type": "object",
+                "id": "string"
+              },
+              "example":{
+                  "name": "Swechchha Singh",
+                  "email": "swesingh@gmail.com",
+                  "address": "Hom 65",
+                  "phone": 8934645457,
+                  "cost": 712,
+                  "menuItem": [
+                      101,
+                      102,
+                      103
+                  ],
+                  "status": "On The Way"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    },
+    "/updateOrder": {
+      "summary": "Testing category Route",
+      "put": {
+        "description": "Testing category Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "requestBody":{
+          "required":true,
+          "content":{
+            "application/json":{
+              "schema":{
+                "type": "object",
+                "id": "string"
+              },
+              "example":{
+                "_id": "671364dd23d5f476d5cc29f0",
+                "status": "Pending"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    },
+    "/deleteOrder": {
+      "summary": "Testing category Route",
+      "delete": {
+        "description": "Testing category Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "requestBody":{
+          "required":true,
+          "content":{
+            "application/json":{
+              "schema":{
+                "type": "object",
+                "id": "string"
+              },
+              "example":{
+                "_id": "671364dd23d5f476d5cc29f0",
+                "status": "Pending"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    },
+    "/orders": {
+      "summary": "Testing category Route",
+      "get": {
+        "description": "Testing category Route for app",
+        "tags": ["PUBLIC ROUTE"],
+        "parameters":[
+          {
+              "name":"id",
+              "in":"path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "category route"
+          }
+        }
+      }
+    }
+  }
+}

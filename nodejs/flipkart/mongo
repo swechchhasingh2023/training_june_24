@@ -1,0 +1,128 @@
+Signup> https://cloud.mongodb.com/
+Download > https://www.mongodb.com/try/download/compass
+
+Database > Clusters > Create
+Shared> aws > mumbai
+M0 Sandbox
+Click Create Cluster
+
+
+mongodb+srv://swechchhasingh2017:<db_password>@mern.mjg31yk.mongodb.net/?retryWrites=true&w=majority&appName=mern
+
+user name: swechchhasingh2017
+current pass- NYhOmqxc7CabXv9y
+connection string:
+mongodb+srv://swechchhasingh2017:<db_password>@cluster0.ottho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+mongodb+srv://swechchhasingh2017:NYhOmqxc7CabXv9y@cluster0.ottho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+>>>>>>>>>>>>
+Connect
+> Drivers
+> mongodb+srv://<username>:<password>@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+>>>>>>>>>>>>>>>
+Database Access
+> Add New Database User
+> Password 
+Provide any username >> aakash
+Autogenerate password>> 
+
+Built-in Role
+> Atlas Admin
+> Add User
+
+
+>>>>>>>>>>>>>>>
+Network Access
+> Add IP Address
+> Access List Entry: 0.0.0.0/0
+> Confirm
+
+////////////////////////////////
+(Sql)
+Roll No |  Hindi  | English | Computer
+    1   |    80   |         |
+    2   |         |   75    |
+    3   |    85   |         |    90
+
+(Mongo)
+[
+    {
+        rollNo:1,
+        Hindi:80
+    },
+    {
+        rollNo:2,
+        English:75
+    },
+    {
+        rollNo:3,
+        Hindi:85,
+        Computer:90
+    },
+]
+
+SQL          Mongo
+Database     Database
+Table        Collections
+Row          Columns
+Select       Find
+Insert       Insert
+Delete       Delete
+Update       Update
+
+
+/////////////////////////
+# See all dbs
+> show dbs
+
+# Go inside db
+> use database name
+
+# See collection dbs
+> show collections
+
+# find all data
+db.collection.find()
+
+# insert data
+db.collectionName.insert({name:"Aakash"})
+
+db.users.insert({name:"Aakash"})
+
+_id is primary key
+> every record will have it
+> value is always unique
+
+db.products.find({"category":"Electronics","company":"Bajaj"})
+
+db.products.update({condition},{set}}
+
+db.products.update(
+    {_id:1},
+    {
+        $set:{
+            "status":"delivered"
+        }
+    }
+)
+
+
+db.products.deleteOne(condition)
+db.products.deleteOne({"_id":1}}
+
+
+db.products.deleteOne({_id:1})
+
+
+
+category is collection
+
+
+show dbs
+use ecom
+show collections
+db.category.find()
