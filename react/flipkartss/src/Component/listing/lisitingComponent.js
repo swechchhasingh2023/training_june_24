@@ -3,8 +3,10 @@ import { useParams } from 'react-router-dom';
 import './listing.css'
 import axios from 'axios';
 import ListingDisplay from './listingDisplay';
+import ProductFilter from '../filters/productFilter';
 
 const baseUrl ="https://api-1-sk5b.onrender.com"
+
 
 const ListingComponent =()=> {
 
@@ -27,7 +29,7 @@ const setDataPerFilter = (data) => {
     <div className='row'>
       <div id='mainListing'>
         <div id='filter'>
-
+          <ProductFilter productId={productId} prodPerFilter={(data)=>{setDataPerFilter(data)}} />
         </div>
       </div>
       <ListingDisplay listData={productList}/>
