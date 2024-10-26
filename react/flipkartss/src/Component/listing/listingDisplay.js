@@ -5,27 +5,27 @@ const ListingDisplay = (props) => {
   const renderData = ({ listData }) => {
     if (listData) {
       if (listData.length > 0) {
-        return listData.map((item) => {
+        return listData.map((item1) => {
           return (
-            <div className="item" key={item._id}>
+            <div className="item1" key={item1._id}>
               <div className="row">
                 <div className="col-md-5">
                   <img
-                    src={item.Image}
-                    alt={item.product_name}
+                    src={item1.Image}
+                    alt={item1.product_name}
                     className="Image"
                   />
                 </div>
                 <div className="col-md-7">
                   <div className="hotel_name">
-                    <Link to={`/details?proDetailsId=${item.category_id}`}>
-                      {item.product_name}
+                    <Link to={`/details?proDetailsId=${item1.category_id}`}>
+                      {item1.product_name}
                     </Link>
                   </div>
-                  <div className="city_name">{item.category}</div>
-                  <div className="city_name">{item.Color}</div>
-                  <div className="city_name">Rs. {item.Price}</div>
-                  <div className="city_name">Rs. {item.Brand}</div>
+                  <div className="city_name">{item1.category}</div>
+                  <div className="city_name">{item1.Color}</div>
+                  <div className="city_name">Rs. {item1.Price}</div>
+                  <div className="city_name">Rs. {item1.Brand}</div>
                 </div>
               </div>
             </div>
