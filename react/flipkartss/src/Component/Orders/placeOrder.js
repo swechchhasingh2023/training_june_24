@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import './placeOrder.css'
 
 const orderUrl = "https://api-1-sk5b.onrender.com/";
 

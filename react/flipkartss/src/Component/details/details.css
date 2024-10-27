@@ -1,51 +1,96 @@
-.main{
-    display: inline-block;
-    margin-left:5%
+/* Main Container */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
-.tileImage{
-    width:48%;
-    float: left;
+/* Content Tile Section */
+.tileContent {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    gap: 20px; 
 }
 
-.tileContent{
-    width:50%;
-    margin-left: 2%;
-    float: left;
+/* Left Side: Image and Buttons */
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;         
 }
 
-.imageClass > img{
-    height: 600px;
-    width:95%;
-    margin-left: 3%;
-    margin-top: 3%;
+.imageClass img {
+    width: 100%;       
+    height: auto;      
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
 }
 
-
-#cfeedback{
-    margin-left:3%;
-    color:green
+/* Buttons Group */
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;            
 }
 
-.icons{
-    display: inline-block;
-    margin-left:2%
-}
-.icons >img{
-    width: 120px;
-    height:120px;
+/* Right Side: Product Details */
+.rightSection {
+    width: 70%;         
+    text-align: left;   
 }
 
-#stock{
-    font-size: 30px;
-    color:green
+.content h1 {
+    font-size: 2em;         
+    color: #192f60;       
+    font-weight: 600;     
+    margin-bottom: 10px;
 }
 
-.button{
-    height:48px;
-    width:250px;
-    font-size:20px;
+#cfeedback {
+    font-size: 1em;         
+    color: #777;            
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
-#Atoc{
-    background-color:green
+
+.content h3 {
+    font-size: 1.2em;      
+    color: #555;         
+    margin-bottom: 10px;
+}
+
+.content del {
+    color: #b12704;         
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 20px;    
+    font-size: 1em;       
+    font-weight: bold;      
+    border: none;          
+    border-radius: 5px;    
+    color: #ffffff;        
+    cursor: pointer;       
+}
+
+.btn-danger {
+    background: #ff9f00 !important;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    opacity: 0.9;              
 }

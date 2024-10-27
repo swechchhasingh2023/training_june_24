@@ -33,12 +33,12 @@ const ListingComponent = () => {
                 setDataPerFilter(data);
               }}
             />
-            <CostFilter
+            {/* <CostFilter
               productId={productId}
               prodPerCost={(data) => {
                 setDataPerFilter(data);
               }}
-            />
+            /> */}
           </div>
         </div>
         <ListingDisplay listData={productList} />

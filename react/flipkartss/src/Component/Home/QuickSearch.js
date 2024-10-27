@@ -17,7 +17,7 @@ const QuickSearch = () => {
 
   return (
     <>
-      <p className="section-3-headline">Best On Electronincs</p>
+      <p className="section-3-headline">All Best Offers</p>
       <div className="section-3-container">
         <div className="smartphones">
           <QuickDisplay quickData={productType} />
